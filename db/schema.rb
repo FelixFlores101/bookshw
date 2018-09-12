@@ -16,8 +16,8 @@ ActiveRecord::Schema.define(version: 2018_09_10_195931) do
   enable_extension "plpgsql"
 
   create_table "authors", force: :cascade do |t|
-    t.string "name_first"
-    t.string "name_last"
+    t.string "first_name"
+    t.string "last_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

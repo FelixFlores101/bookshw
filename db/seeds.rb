@@ -7,10 +7,10 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Author.create!([
-  {name_first: "Herman", name_last: "Melville"},
-  {name_first: "Don", name_last: "Delillo"},
-  {name_first: "Virginia", name_last: "Woolf"},
-  {name_first: "Drake", name_last: "Talley"}
+  {first_name: "Herman", last_name: "Melville"},
+  {first_name: "Don", last_name: "Delillo"},
+  {first_name: "Virginia", last_name: "Woolf"},
+  {first_name: "Drake", last_name: "Talley"}
 ])
 Book.create!([
   {title: "Moby Dick", author_id: 1},
